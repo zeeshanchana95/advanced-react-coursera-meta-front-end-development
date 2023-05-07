@@ -112,9 +112,7 @@ function App() {
              <option value="business">Business</option> 
            </select> 
          </div> 
-         <button type="submit" disabled={!getIsFormValid()}> 
-           Create account 
-         </button> 
+         <button type="submit" disabled={!getIsFormValid()}> Create account </button> 
        </fieldset> 
      </form> 
    </div> 
